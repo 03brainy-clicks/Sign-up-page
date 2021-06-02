@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+}
+
+
+/* main container holds the page in center */
+
+#contain {
+    margin: 5% auto;
+    width: 60%;
+}
+
+
+/* container hold images */
+
+#container {
+    background-image: url("images/background.jpg");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* form placement */
+
+#form {
+    min-width: 200px;
+    width: 25%;
+    margin: 0px 65%;
+    padding: 5% 0px;
+    color: white;
+}
+
+.text {
+    margin: 3% 0px;
+    border-radius: 2px;
+    border-width: 0;
+    color: #dfc391;
+    width: 90%;
+}
+
+
+/* down text size */
+
+span {
+    color: rgb(255, 255, 255);
+    font-size: 0.6rem;
+}
+
+
+/* setting placeholder */
+
+::placeholder {
+    color: #dfc391;
+    opacity: 1;
+    font-size: 0.7rem;
+}
+
+
+/* submit  */
+
+.submit {
+    margin: 10px 0;
+    color: #dfc391;
+    background-color: white;
+    padding: 1% 0;
+    width: 60%;
+    border-radius: 2px;
+    border-width: 0;
+}
+
+.checkbox {
+    vertical-align: middle;
+    cursor: pointer;
+}
